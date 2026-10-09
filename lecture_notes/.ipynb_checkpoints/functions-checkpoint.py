@@ -206,32 +206,22 @@
 # }
 # print(nested_list["c"][1])
 
-# stars_data = {
-#     "name": ["Sirius", "Vega", "Altair"],
-#     "magnitude": [-1.46, 0.03, 0.77],
-#     "distance_ly": [8.6, 25.0, 16.7],
-#     "constellation": ["Canis Major", "Lyra", "Aquila"]
-# }
+stars_data = {
+    "name": ["Sirius", "Vega", "Altair"],
+    "magnitude": [-1.46, 0.03, 0.77],
+    "distance_ly": [8.6, 25.0, 16.7],
+    "constellation": ["Canis Major", "Lyra", "Aquila"]
+}
 
-# for name in stars_data["name"]:
-#     print(name)
+for name in stars_data["name"]:
+    print(name)
 
-# def count_close_stars(data):
-#     count = 0
-#     for distance in data["distance_ly"]:
-#         if distance < 20:
-#             count += 1
-#         else:
-#             count += 0
+def count_close_stars(data):
+    count = 0
+    for distance in data["distance_ly"]:
+        if distance < 20:
+            count += 1
+        else:
+            count += 0
 
-# print(count_close_stars())
-
-# Lecture 10/7
-
-list1 = [1, 2, 3]
-list2 = [4, 5, 6]
-list1 + list2 = [1, 2, 3, 4, 5, 6]
-np.array([list1])
-list1, list2 = np.array([list1]), np.array([list2])
-print(list1)=[1, 2, 3]
-list1 + list2 = [5, 7,9]
+print(count_close_stars())

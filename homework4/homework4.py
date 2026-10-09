@@ -33,7 +33,6 @@ def potato(fav_food):
 		return "A potato!"
 	else:
 		return "No potato..."
-
 print(potato(fav_food))
 
 # 3.2 Slicing and Striding
@@ -70,7 +69,6 @@ print(number_list[2])
 print(number_list[1][1])
 number_list.append([10, 11, 12])
 print(number_list)
-
 
 # 3.4 Create a 5x5 List
 def nested_loops():
@@ -120,3 +118,4 @@ del ages["Mariam"]
 print(ages)
 for name, age in ages.items():
 	print(name, age)
+	
